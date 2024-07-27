@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-100">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-400 to-teal-200">
       <Header />
       <Hero />
     </div>
