@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #4338ca;
+  background-image: linear-gradient(to bottom right, #4338ca, #0f766e);
   color: #f1f5f9;
   height: 4rem;
   padding: 0 1.5rem;
@@ -7,11 +7,14 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 
 .page-header p {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  letter-spacing: .05em;
+  font-weight: bold;
 }
 
 .nav-link {
