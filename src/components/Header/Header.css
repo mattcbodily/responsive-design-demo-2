@@ -10,6 +10,10 @@
   filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 
+.page-header nav {
+  display: none;
+}
+
 .page-header p {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -24,4 +28,20 @@
 
 .nav-link:hover {
   color: #c7d2fe;
+}
+
+@media (min-width: 768px) {
+  .page-header nav {
+    display: initial;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }

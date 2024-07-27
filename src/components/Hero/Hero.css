@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  padding-top: 8rem;
+  padding-left: 3rem;
+  padding-right:3rem;
   gap: 4rem;
 }
 
@@ -30,4 +32,34 @@
   color: #334155;
   font-size: .875rem;
   line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .hero-wrapper {
+    padding-top: 3rem;
+  }
+
+  .hero-image {
+    height: 350px;
+    width: 350px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .hero-text p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-wrapper {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
 }

@@ -22,3 +22,9 @@
   cursor: pointer;
   margin: .25rem 0;
 }
+
+@media (min-width: 768px) {
+  .menu-button, .mobile-menu {
+    display: none;
+  }
+}

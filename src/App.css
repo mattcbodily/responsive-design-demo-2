@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .app-wrapper {
   background-image: linear-gradient(to bottom right, #818cf8, #99f6e4);
   font-family: Arial, Helvetica, sans-serif;
